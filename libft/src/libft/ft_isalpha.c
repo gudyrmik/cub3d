@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 13:20:49 by anurmach          #+#    #+#             */
 /*   Updated: 2025/05/24 13:20:59 by anurmach         ###   ########.fr       */

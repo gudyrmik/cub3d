@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 16:22:00 by anurmach          #+#    #+#             */
 /*   Updated: 2025/05/24 16:31:45 by anurmach         ###   ########.fr       */

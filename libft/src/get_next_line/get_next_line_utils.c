@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 20:56:42 by anurmach          #+#    #+#             */
 /*   Updated: 2025/07/12 21:08:59 by anurmach         ###   ########.fr       */

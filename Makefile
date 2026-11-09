@@ -18,8 +18,9 @@ CFLAGS := -Wall -Wextra -Werror -MMD -MP -I $(HEADERS)
 RM := rm -f
 
 SRCS := $(SRC)/main.c \
-	$(SRC)/read_map.c \
-	$(SRC)/errors.c
+		$(SRC)/read_map.c \
+		$(SRC)/read_map_utils.c \
+		$(SRC)/errors.c
 
 NAME := cub3D
 LIBFT := $(LIBFTD)/libft.a

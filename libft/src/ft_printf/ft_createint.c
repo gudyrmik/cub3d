@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_createint.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 22:12:17 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/15 20:31:47 by anurmach         ###   ########.fr       */

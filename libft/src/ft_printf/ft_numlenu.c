@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_numlenu.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 11:52:58 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/15 11:53:03 by anurmach         ###   ########.fr       */

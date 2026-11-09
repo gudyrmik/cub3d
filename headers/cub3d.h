@@ -25,9 +25,12 @@
 
 # include "../libft/libft.h"
 
-/*read_map*/
+/*read_map.c*/
 int		check_extension(char	*s);
 char	*readmap(char	*file);
+
+/*read_map_utils.c*/
+char	*readmap2(int fd);
 
 /*errors*/
 void	print_error(int error);

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoastrlen.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 11:18:05 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/14 20:16:39 by anurmach         ###   ########.fr       */

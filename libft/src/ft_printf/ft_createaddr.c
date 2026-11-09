@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_createaddr.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 16:18:54 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/15 19:57:56 by anurmach         ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isformatflag.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 16:24:58 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/15 18:47:49 by anurmach         ###   ########.fr       */

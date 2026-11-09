@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strwidth.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anurmach <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anurmach <anurmach@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 11:11:15 by anurmach          #+#    #+#             */
 /*   Updated: 2025/06/14 20:46:08 by anurmach         ###   ########.fr       */
