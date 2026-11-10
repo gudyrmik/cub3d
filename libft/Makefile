@@ -73,7 +73,7 @@ SRC =	src/libft/ft_atol.c \
 		src/ft_printf/ft_strwidth.c
 
 OBJ := $(SRC:.c=.o)
-DEP := $(OBJS:.o=.d)
+DEP := $(OBJ:.o=.d)
 
 all : $(NAME)
 

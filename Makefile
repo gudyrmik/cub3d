@@ -27,7 +27,11 @@ LIBFT := $(LIBFTD)/libft.a
 OBJS := $(SRCS:.c=.o)
 DEP := $(OBJS:.o=.d)
 
-all : $(NAME)
+all : libft_build
+		$(MAKE) $(NAME)
+
+libft_build:
+		$(MAKE) -C $(LIBFTD)
 
 $(NAME) : $(LIBFT) $(OBJS)
 		$(CC) $(CFLAGS) $(OBJS) $(LIBFT) -o $@
@@ -50,4 +54,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re libft_build
