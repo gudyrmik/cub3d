@@ -12,32 +12,46 @@
 
 SRC := src
 HEADERS := headers
+LIBFTD := libft
 CC := cc
 CFLAGS := -Wall -Wextra -Werror -MMD -MP -I $(HEADERS)
 RM := rm -f
 
-SRCS := $(SRC)/main.c
+SRCS := $(SRC)/main.c \
+		$(SRC)/read_map.c \
+		$(SRC)/read_map_utils.c \
+		$(SRC)/errors.c
 
 NAME := cub3D
+LIBFT := $(LIBFTD)/libft.a
 OBJS := $(SRCS:.c=.o)
 DEP := $(OBJS:.o=.d)
 
-all : $(NAME)
+all : libft_build
+		$(MAKE) $(NAME)
 
-$(NAME) : $(OBJS)
-		$(CC) $(CFLAGS) $(OBJS) -o $@
+libft_build:
+		$(MAKE) -C $(LIBFTD)
+
+$(NAME) : $(LIBFT) $(OBJS)
+		$(CC) $(CFLAGS) $(OBJS) $(LIBFT) -o $@
 
 $(SRC)/%.o : $(SRC)/%.c
 		$(CC) $(CFLAGS) -c $< -o $@
 
+$(LIBFT) :
+	$(MAKE) -C $(LIBFTD)
+
 -include $(DEP)
 
 clean:
+		$(MAKE) clean -C $(LIBFTD)
 		$(RM) $(OBJS) $(DEP)
 
 fclean: clean
 		$(RM) $(NAME)
+		$(MAKE) fclean -C $(LIBFTD)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re libft_build
